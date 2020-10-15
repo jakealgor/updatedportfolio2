@@ -2,7 +2,7 @@ footer{
     text-align: center;
 }
 ​
-.navbar-brand{
+nav{
     font-weight: bold;
 }
 ​
@@ -19,4 +19,10 @@ img{
 
 body{
     background-color: yellowgreen;
+    padding: 0 !important;
+    margin-top: 0;
 }
+
+/* .container {
+
+} */

@@ -12,7 +12,7 @@
 ​
     <link rel="stylesheet" type="text/css" href="stylesheet1.css" />
 ​
-    <nav class="navbar navbar-expand-sm navbar navbar-dark bg-primary ">
+    <!-- <nav class="navbar navbar-expand-sm navbar navbar-dark bg-primary navbar-fixed-top">
         <a class="navbar-brand">Jake Algor</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,10 +25,38 @@
                 <a class="nav-item nav-link active" href="music.html"> Music</a>
             </div>
         </div>
-    </nav>
+    </nav> -->
 ​</head>
 <body>
-    <div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle" id="btnNavbarToggle" type="button" data-toggle="collapse" data-target="#mainNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand">
+                    <img src="Images/eDataRoom-Icon.png" />
+                    Consent Order Dashboard
+                </span>
+            </div>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a id="lnkDataEntry" href="DataEntryResidenceSearch.aspx" runat="server">Data Entry</a></li>
+                    <li><a id="lnkExecutiveView" href="ExecutiveView.aspx" runat="server">Executive View</a></li>
+                    <li><a id="lnkProjectManagerView" href="ProjectManagerView.aspx" runat="server">Project Manager View</a></li>
+                    <li><a id="lnkTaskManagerView" href="TaskManagerView.aspx" runat="server">Task Manager View</a></li>
+                    <li><a id="lnkTeamPage" href="TeamPage.aspx" runat="server">Teams</a></li>
+                    <li><a id="lnkLibrary" href="../Library/Library.aspx" runat="server">Library</a></li>
+                    <li><a id="lnkAdmin" href="../ManageAccounts.aspx" runat="server" visible="false">Admin</a></li>
+                    <li><a id="lnkSignOut" href="javascript:__doPostBack('LoginStatus1$ctl00','');">Sign Out</a></li>
+                    <asp:LoginStatus ID="LoginStatus1" runat="server" Style="display: none;" />
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
         <h1>Portfolio</h1>
         <hr>
         <div class="row">
@@ -36,7 +64,7 @@
         <div class="content">
                 <img src="pngwing.com.png" alt="Semantic website screenshot" style="width:100%">
                 <h3>Semantic Elements</h3>
-                <p>I took an existing webiste and added Semantic Elements to make the page more accessible. Click <a href="file:///C:/Users/JakeAlgor/Documents/RUT-JER-FSF-PT-06-2020-U-C/hw%20submissions/Horiseon%20website%20html.html" target="_blank">here</a> to take a look at my work!</p>
+                <p>I took an existing webiste and added Semantic Elements to make the page more accessible. Click <a href="" target="_blank">here</a> to take a look at my work!</p>
             </div>
         </div>
         <div class="col-sm-12 col-lg-4">
@@ -50,7 +78,49 @@
             <div class="content">
                 <img src="internet-technologies.jpg" alt="About me website screenshot" style="width:100%">
                 <h3>My First Website</h3>
-            <p>The first projected I worked on by myself. Click <a href="file:///C:/Users/JakeAlgor/Documents/RUT-JER-FSF-PT-06-2020-U-C/html-template.html" target="_blank">here</a> to see the very first website I made!</p>
+            <p>The first projected I worked on by myself. Click <a href="" target="_blank">here</a> to see the very first website I made!</p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+            <div class="content">
+                <img src=""  alt="" style="width:100%">
+                <h3>Password Generator</h3>
+                <p>Click <a href="" target="_blank">here</a> to see my password generator I have created!</p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+            <div class="content">
+                <img src=""  alt="" style="width:100%">
+                <h3></h3>
+                <p>Click <a href="" target="_blank">here</a> to see a code quiz I have created!</p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+            <div class="content">
+                <img src=""  alt="" style="width:100%">
+                <h3>Planner</h3>
+                <p>Need to plan your day? Click <a href="" target="_blank">here</a> to connect to my planner creator I have created!</p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+            <div class="content">
+                <img src=""  alt="Instagram screenshot" style="width:100%">
+                <h3>Instagram Profile</h3>
+                <p>Whats the weather like today? Click <a href="" target="_blank">here</a> to connect with me on Instagram!</p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+            <div class="content">
+                <img src=""  alt="Instagram screenshot" style="width:100%">
+                <h3>Instagram Profile</h3>
+                <p>Click <a href="" target="_blank">here</a> to connect with me on Instagram!</p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+            <div class="content">
+                <img src=""  alt="Instagram screenshot" style="width:100%">
+                <h3>Instagram Profile</h3>
+                <p>Click <a href="" target="_blank">here</a> to connect with me on Instagram!</p>
             </div>
         </div>
         </div>
