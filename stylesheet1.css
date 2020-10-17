@@ -23,6 +23,8 @@ body{
     margin-top: 0;
 }
 
-/* .container {
-
-} */
+#profile{
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+}
